@@ -26,4 +26,8 @@
   <ItemGroup>
     <None Remove="appsettings.Production.json" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solana.SignatureReader.Service\Solana.SignatureReader.Service.csproj" />
+  </ItemGroup>
 </Project>
