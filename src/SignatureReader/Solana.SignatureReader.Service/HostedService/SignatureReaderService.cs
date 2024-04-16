@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using Solana.FinderGems.Domain.Service.HostedWork;
+using Solana.FinderGems.Service;
 
 namespace Solana.SignatureReader.Service.HostedService
 {
-    public class SignatureReaderService : BackgroundService
+    public class SignatureReaderService : HostedService<ISignatureReaderWork>
     {
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        public SignatureReaderService(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            throw new NotImplementedException();
         }
     }
 }

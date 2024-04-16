@@ -5,33 +5,44 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{DCD260C4-2146-450A-B694-DA7221EEC335}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - SignatureReader", "2 - SignatureReader", "{AEC31E9B-CDD4-4673-B5C8-A8CBE3CCACF2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - SignatureReader", "3 - SignatureReader", "{AEC31E9B-CDD4-4673-B5C8-A8CBE3CCACF2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Application", "2.1 - Application", "{3265D933-3C04-469B-BEBB-563DF5352378}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Application", "3.1 - Application", "{3265D933-3C04-469B-BEBB-563DF5352378}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Domain", "2.2 - Domain", "{22797E10-DBA6-46C8-BB6D-B4D5EF689482}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Domain", "3.2 - Domain", "{22797E10-DBA6-46C8-BB6D-B4D5EF689482}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 - Service", "2.3 - Service", "{3546F486-B319-4FC5-8D90-82668065F9F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.3 - Service", "3.3 - Service", "{3546F486-B319-4FC5-8D90-82668065F9F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4 - Infra", "2.4 - Infra", "{E6A570DC-6BFB-41E0-8C5F-5BC8CB4E68A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.4 - Infra", "3.4 - Infra", "{E6A570DC-6BFB-41E0-8C5F-5BC8CB4E68A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.5 - Test", "2.5 - Test", "{99445526-0B7C-4997-95AB-50E480D09168}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.5 - Test", "3.5 - Test", "{99445526-0B7C-4997-95AB-50E480D09168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.FinderGems.Domain", "src\Common\Solana.FinderGems.Domain\Solana.FinderGems.Domain.csproj", "{CC84256B-906B-466E-93FE-5F1F79B9C477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.FinderGems.Domain", "src\Common\Solana.FinderGems.Domain\Solana.FinderGems.Domain.csproj", "{CC84256B-906B-466E-93FE-5F1F79B9C477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.SignatureReader.Batch", "src\SignatureReader\Solana.SignatureReader.Batch\Solana.SignatureReader.Batch.csproj", "{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Batch", "src\SignatureReader\Solana.SignatureReader.Batch\Solana.SignatureReader.Batch.csproj", "{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.SignatureReader.Domain", "src\SignatureReader\Solana.SignatureReader.Domain\Solana.SignatureReader.Domain.csproj", "{1807E28C-E2F3-4604-8376-D1C1ABE1532B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.4.1 - Data", "3.4.1 - Data", "{2DEED23E-7E3F-4059-8031-933F1201C340}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4.1 - Data", "2.4.1 - Data", "{2DEED23E-7E3F-4059-8031-933F1201C340}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.4.2 - CrossCutting", "3.4.2 - CrossCutting", "{EE727078-3B61-4384-BEDC-DB116EFD5E2B}"
+	ProjectSection(SolutionItems) = preProject
+		src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj = src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4.2 - CrossCutting", "2.4.2 - CrossCutting", "{EE727078-3B61-4384-BEDC-DB116EFD5E2B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{9FDD343A-EF50-4AD8-A3B6-1A4AA383A62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.SignatureReader.Infra.Data", "src\SignatureReader\Solana.SignatureReader.Infra.Data\Solana.SignatureReader.Infra.Data.csproj", "{DC146BAB-257C-45B5-94EE-12E4AB52E0B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Data", "2.1 - Data", "{17E4A17B-D40C-475F-8C7C-C182253DEBF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Service", "src\SignatureReader\Solana.SignatureReader.Service\Solana.SignatureReader.Service.csproj", "{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.FinderGems.Infra.Data", "src\Common\Solana.FinderGems.Infra.Data\Solana.FinderGems.Infra.Data.csproj", "{DA77AA8B-6103-429E-84AC-92F2D8492801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.SignatureReader.Infra.CrossCutting", "src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj", "{9DC8D3D5-0922-4205-BD28-1249A14A56BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Infra.Data", "src\SignatureReader\Solana.SignatureReader.Infra.Data\Solana.SignatureReader.Infra.Data.csproj", "{FBC91635-D6D1-4F29-80CB-D31E0DE655E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Domain", "src\SignatureReader\Solana.SignatureReader.Domain\Solana.SignatureReader.Domain.csproj", "{B1CCD03F-8C10-491B-9DA0-594238247F67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Service", "src\SignatureReader\Solana.SignatureReader.Service\Solana.SignatureReader.Service.csproj", "{6E39F1D2-5982-41EC-B929-483773A88015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{44DCF889-D304-4F2C-877E-241C41409BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.FinderGems.Service", "src\Common\Solana.FinderGems.Service\Solana.FinderGems.Service.csproj", "{FFB5AC7D-785F-4065-88F7-80B44E74D85F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,22 +58,26 @@ Global
 		{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1807E28C-E2F3-4604-8376-D1C1ABE1532B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1807E28C-E2F3-4604-8376-D1C1ABE1532B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1807E28C-E2F3-4604-8376-D1C1ABE1532B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1807E28C-E2F3-4604-8376-D1C1ABE1532B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC146BAB-257C-45B5-94EE-12E4AB52E0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC146BAB-257C-45B5-94EE-12E4AB52E0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC146BAB-257C-45B5-94EE-12E4AB52E0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC146BAB-257C-45B5-94EE-12E4AB52E0B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DC8D3D5-0922-4205-BD28-1249A14A56BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DC8D3D5-0922-4205-BD28-1249A14A56BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DC8D3D5-0922-4205-BD28-1249A14A56BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DC8D3D5-0922-4205-BD28-1249A14A56BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA77AA8B-6103-429E-84AC-92F2D8492801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA77AA8B-6103-429E-84AC-92F2D8492801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA77AA8B-6103-429E-84AC-92F2D8492801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA77AA8B-6103-429E-84AC-92F2D8492801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC91635-D6D1-4F29-80CB-D31E0DE655E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC91635-D6D1-4F29-80CB-D31E0DE655E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC91635-D6D1-4F29-80CB-D31E0DE655E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC91635-D6D1-4F29-80CB-D31E0DE655E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CCD03F-8C10-491B-9DA0-594238247F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CCD03F-8C10-491B-9DA0-594238247F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CCD03F-8C10-491B-9DA0-594238247F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CCD03F-8C10-491B-9DA0-594238247F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E39F1D2-5982-41EC-B929-483773A88015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E39F1D2-5982-41EC-B929-483773A88015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E39F1D2-5982-41EC-B929-483773A88015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E39F1D2-5982-41EC-B929-483773A88015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,12 +90,14 @@ Global
 		{99445526-0B7C-4997-95AB-50E480D09168} = {AEC31E9B-CDD4-4673-B5C8-A8CBE3CCACF2}
 		{CC84256B-906B-466E-93FE-5F1F79B9C477} = {DCD260C4-2146-450A-B694-DA7221EEC335}
 		{545C6D6F-AAD1-43B2-A7A4-9603F7DE32B7} = {3265D933-3C04-469B-BEBB-563DF5352378}
-		{1807E28C-E2F3-4604-8376-D1C1ABE1532B} = {22797E10-DBA6-46C8-BB6D-B4D5EF689482}
 		{2DEED23E-7E3F-4059-8031-933F1201C340} = {E6A570DC-6BFB-41E0-8C5F-5BC8CB4E68A2}
 		{EE727078-3B61-4384-BEDC-DB116EFD5E2B} = {E6A570DC-6BFB-41E0-8C5F-5BC8CB4E68A2}
-		{DC146BAB-257C-45B5-94EE-12E4AB52E0B7} = {2DEED23E-7E3F-4059-8031-933F1201C340}
-		{F515F76F-C2AB-4E71-AAAD-C8037B43F5CE} = {3546F486-B319-4FC5-8D90-82668065F9F4}
-		{9DC8D3D5-0922-4205-BD28-1249A14A56BA} = {EE727078-3B61-4384-BEDC-DB116EFD5E2B}
+		{17E4A17B-D40C-475F-8C7C-C182253DEBF9} = {9FDD343A-EF50-4AD8-A3B6-1A4AA383A62B}
+		{DA77AA8B-6103-429E-84AC-92F2D8492801} = {17E4A17B-D40C-475F-8C7C-C182253DEBF9}
+		{FBC91635-D6D1-4F29-80CB-D31E0DE655E4} = {2DEED23E-7E3F-4059-8031-933F1201C340}
+		{B1CCD03F-8C10-491B-9DA0-594238247F67} = {22797E10-DBA6-46C8-BB6D-B4D5EF689482}
+		{6E39F1D2-5982-41EC-B929-483773A88015} = {3546F486-B319-4FC5-8D90-82668065F9F4}
+		{FFB5AC7D-785F-4065-88F7-80B44E74D85F} = {44DCF889-D304-4F2C-877E-241C41409BFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1E0D3EB-D571-410B-BCB9-7752DA1DF33D}

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Solana.FinderGems.Domain\Solana.FinderGems.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

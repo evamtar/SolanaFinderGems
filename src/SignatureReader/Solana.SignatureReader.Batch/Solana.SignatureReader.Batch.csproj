@@ -28,6 +28,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\Solana.FinderGems.Domain\Solana.FinderGems.Domain.csproj" />
+    <ProjectReference Include="..\Solana.SignatureReader.Domain\Solana.SignatureReader.Domain.csproj" />
+    <ProjectReference Include="..\Solana.SignatureReader.Infra.Data\Solana.SignatureReader.Infra.Data.csproj" />
     <ProjectReference Include="..\Solana.SignatureReader.Service\Solana.SignatureReader.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MongoDB.EntityFrameworkCore">
+      <HintPath>..\..\..\mongolib\MongoDB.EntityFrameworkCore.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
