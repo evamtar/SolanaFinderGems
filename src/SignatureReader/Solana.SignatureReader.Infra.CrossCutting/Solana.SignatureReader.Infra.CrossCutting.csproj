@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Solana.SignatureReader.Domain\Solana.SignatureReader.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -24,9 +24,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.4.1 - Data", "3.4.1 - Data", "{2DEED23E-7E3F-4059-8031-933F1201C340}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.4.2 - CrossCutting", "3.4.2 - CrossCutting", "{EE727078-3B61-4384-BEDC-DB116EFD5E2B}"
-	ProjectSection(SolutionItems) = preProject
-		src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj = src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{9FDD343A-EF50-4AD8-A3B6-1A4AA383A62B}"
 EndProject
@@ -43,6 +40,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{44DCF889-D304-4F2C-877E-241C41409BFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solana.FinderGems.Service", "src\Common\Solana.FinderGems.Service\Solana.FinderGems.Service.csproj", "{FFB5AC7D-785F-4065-88F7-80B44E74D85F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solana.SignatureReader.Infra.CrossCutting", "src\SignatureReader\Solana.SignatureReader.Infra.CrossCutting\Solana.SignatureReader.Infra.CrossCutting.csproj", "{0EA0C994-A500-4ABA-9B59-E8E360528DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +77,10 @@ Global
 		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB5AC7D-785F-4065-88F7-80B44E74D85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA0C994-A500-4ABA-9B59-E8E360528DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA0C994-A500-4ABA-9B59-E8E360528DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA0C994-A500-4ABA-9B59-E8E360528DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA0C994-A500-4ABA-9B59-E8E360528DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +101,7 @@ Global
 		{B1CCD03F-8C10-491B-9DA0-594238247F67} = {22797E10-DBA6-46C8-BB6D-B4D5EF689482}
 		{6E39F1D2-5982-41EC-B929-483773A88015} = {3546F486-B319-4FC5-8D90-82668065F9F4}
 		{FFB5AC7D-785F-4065-88F7-80B44E74D85F} = {44DCF889-D304-4F2C-877E-241C41409BFC}
+		{0EA0C994-A500-4ABA-9B59-E8E360528DDA} = {EE727078-3B61-4384-BEDC-DB116EFD5E2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1E0D3EB-D571-410B-BCB9-7752DA1DF33D}
